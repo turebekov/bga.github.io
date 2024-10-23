@@ -1,0 +1,150 @@
+.footer {
+    background: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    margin-right: 88px;
+}
+
+.footer-container {
+    width: 1171px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-top {
+    padding: 13px 0 12px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #fff;
+    margin: 0;
+}
+
+.footer-info img {
+    margin-right: 8px;
+}
+
+.footer__mail-icon {
+    position: relative;
+    right: 2px;
+    margin-right: 5px !important;
+}
+
+.footer-info__email, .footer-info__addres {
+    margin-top: 13px;
+}
+
+.footer-info-contacts {
+    margin-right: 112px;
+}
+
+.footer__pdf {
+    margin-left: 111px;
+    padding-top: 18px;
+}
+
+.footer-links a {
+    font-weight: 700;
+    line-height: 17px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+
+.footer__hr {
+    border-bottom: 1px solid #FFFFFF33;
+    width: 100%;
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.copyright {
+    padding-bottom: 4px;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #B1B1B1;
+}
+
+.footer-links {
+    margin-left: 112px;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+        padding: 0 16px;
+    }
+
+    .footer-container-top {
+        justify-content: space-between;
+    }
+
+    .footer-info-contacts, .footer__pdf, .footer-logo {
+        margin: 0;
+    }
+
+    .footer-links {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        margin-top: 16px;
+    }
+
+    .footer-info, .footer-links {
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-info p {
+        font-size: 16px;
+    }
+
+    .footer-info-contacts {
+        margin-bottom: 18px;
+    }
+
+    .footer-info__email, .footer-info__addres {
+        margin: 0;
+    }
+
+    .footer-container-top {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-logo {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 0 8px;
+    }
+}
+

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+</head>
+<body>
+
+<div class="body-container">
+    <header class="header">
+        <img class="header__logo" width="199px" height="82px" src="./images/logo.svg" alt="logo">
+
+        <button class="header__lang-btn header__lang-btn_mobile">ru</button>
+
+        <div class="header-nav">
+            <a href="/" class="header__link">Генератор WPS файлов</a>
+            <a href="/" class="header__link">Прайслист</a>
+
+            <button class="header__lang-btn">ru</button>
+        </div>
+    </header>
+
+
+
+    <main class="main">
+        <h1 class="main__title">Базовый прайслист</h1>
+
+        <p class="main__description">
+            Цены не включают 5% НДС
+            <img class="main__description-icon" width="13" height="13" data-tooltip="This is a tooltip" src="./images/circle-info.svg" alt="info">
+
+        </p>
+        <section class="service">
+            <div class="service-header">
+                <img width="28" height="28" src="./images/checked.svg" alt="checked">
+                <p class="service__title">Вариант 1</p>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Месячный бухучет (консультации + в пределах 100 транзакций)</span>
+                <span class="service-type__price">2,000 AED в месяц</span>
+            </div>
+
+            <div class="service-type">
+                <span class="service-type__title">Каждые последующий 100 транзакций</span>
+                <span class="service-type__price">+1,000 AED в месяц</span>
+            </div>
+        </section>
+
+        <section class="service service-custom-margin">
+            <div class="service-header">
+                <img width="28" height="28" src="./images/checked.svg" alt="checked">
+                <p class="service__title">Вариант 2</p>
+            </div>
+
+            <div class="service-type ">
+                    <span class="service-type__title">Квартальный учет для малого бизнеса если компания уже <br> зарегистрирована к НДС
+                        (до 10 документов в месяц, до 2х сотрудников)</span>
+                <span class="service-type__price">5,000 AED за квартал <br> (декларация по НДС в цене)</span>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="service-header">
+                <img width="28" height="28" src="./images/checked.svg" alt="checked">
+                <p class="service__title">Вариант 3</p>
+            </div>
+
+            <div class="service-type ">
+                    <span class="service-type__title">Квартальный учет для малого бизнеса без регистрации к НДС <br>
+(до 10 документов в месяц, до 2х сотрудников)</span>
+                <span class="service-type__price">3,000 AED за квартал</span>
+            </div>
+        </section>
+
+        <section class="service">
+            <div class="service-header">
+                <img width="28" height="28" src="./images/checked.svg" alt="checked">
+                <p class="service__title">Другие услуги</p>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Внесение в учет транзакций за предыдущие периоды</span>
+                <span class="service-type__price">цена договорная</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Регистрация к НДС (VAT)</span>
+                <span class="service-type__price">2,000 AED разово</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Подача НДС (VAT) отчета</span>
+                <span class="service-type__price">2,000 AED ежеквартально</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Подача запроса на возврат НДС (форма VAT 311)</span>
+                <span class="service-type__price">цена договорная</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Регистрация к Корпоративному налогу</span>
+                <span class="service-type__price">600 AED разово (для компаний <br>
+                        уже зарегистрированных к НДС), <br> 1,000 AED разово (для первичной <br> регистрации в FTA</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Внесение обязательных изменений в информации о компании</span>
+                <span class="service-type__price">500 AED</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Регистрация доступа к goAML порталу в Финансовой Полиции</span>
+                <span class="service-type__price">1,000 AED</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                <span class="service-type__title">Консультация базовая</span>
+                <span class="service-type__price">1,000 AED в час</span>
+            </div>
+
+            <div class="service-type service-type__with-line">
+                    <span class="service-type__title">Организация проведения аудита (подготовка и передача всей документации для проведения аудита,
+                        взаимодействие с аудитором по всем вопросам в отчетности компании)</span>
+                <span class="service-type__price">2,000 AED разово</span>
+            </div>
+
+            <div class="service-type">
+                <span class="service-type__title">Лицензия на бухгалтерский софт Quickbooks Online</span>
+                <span class="service-type__price">100 AED</span>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-container-top d-flex">
+            <img class="footer-logo" height="82" width="199" src="./images/footer-logo.svg" alt="footer-logo">
+
+            <div class="footer-info footer-info-contacts d-flex flex-column justify-content-center">
+                <div class="d-flex">
+                    <img  src="./images/phone-icon.svg" alt="phone-icon">
+                    <p>+971566797475</p>
+                </div>
+                <div class="d-flex footer-info__email">
+                    <img width="17" height="17" class="footer__mail-icon" src="./images/mail-icon.svg" alt="phone-icon">
+                    <p>elena@bga.ae</p>
+                </div>
+            </div>
+
+            <div class="footer-info d-flex flex-column justify-content-center">
+                <div class="d-flex">
+                    <img width="17" height="17" src="./images/tg-icon.svg" alt="tg-icon">
+                    <p>@mayustup</p>
+                </div>
+                <div class="d-flex footer-info__addres">
+                    <img width="17" height="17" src="./images/geo-icon.svg" alt="geo-icon">
+                    <p>JLT, Dubai, UAE</p>
+                </div>
+            </div>
+
+            <div class="footer-info d-flex flex-column footer__pdf">
+                <div class="d-flex">
+                    <img width="17" height="17" class="footer__pdf-icon" src="./images/show-pdf.svg" alt="phone-icon">
+                    <p>39140 IFZA <br>
+                        (показать pdf)</p></div>
+            </div>
+
+            <div class="d-flex flex-column footer-links">
+                <a href="/">Генератор WPS файлов</a>
+                <a href="/">Прайслист</a>
+            </div>
+        </div>
+
+        <hr class="footer__hr">
+
+        <div class="d-flex justify-content-between copyright">
+            <p>Copyright © 2024</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
